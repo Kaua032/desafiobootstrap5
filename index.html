@@ -19,54 +19,54 @@
   </head>
   <body>
     <div>
-      <div class="bg-primary px-5 pt-5">
-        <header class="d-flex justify-content-between">
+      <div style="background: #004f9c;" class=" px-5 pt-5">
+        <header class="d-flex justify-content-between container flex-wrap">
           <img src="./img/logo.svg" alt="" />
           <ul
-            class="navbar-nav flex-row justify-content-around align-items-center"
+            class="navbar-nav flex-row justify-content-around align-items-center flex-wrap"  id="navbarSupportedContent"
           >
             <li class="nav-item active">
-              <a class="text-white text-decoration-none fs-4 ms-3" href="#"
+              <a class="text-white text-decoration-none  ms-3" href="#"
                 >SENAI ALAGOAS</a
               >
             </li>
             <li class="nav-item active">
-              <a class="text-white text-decoration-none fs-4 ms-3" href="#"
+              <a class="text-white text-decoration-none  ms-3" href="#"
                 >PARA VOCÊ</a
               >
             </li>
             <li class="nav-item active">
-              <a class="text-white text-decoration-none fs-4 ms-3" href="#"
+              <a class="text-white text-decoration-none  ms-3" href="#"
                 >PARA EMPRESAS</a
               >
             </li>
             <li class="nav-item active">
-              <a class="text-white text-decoration-none fs-4 ms-3" href="#"
+              <a class="text-white text-decoration-none  ms-3" href="#"
                 >CONTATO</a
               >
             </li>
             <li>
               <button
-                class="bg-primary border-white text-white rounded-3 fs-4 p-2 ms-3"
+              style="background: #004f9c;" class=" border-white text-white rounded-3 p-2 ms-3 btn btn-white" type="button"
               >
                 ENTRAR
               </button>
             </li>
           </ul>
         </header>
-        <div class="d-flex justify-content-between mt-5">
+        <div class="d-flex justify-content-between mt-5 container flex-wrap">
           <div class="d-flex flex-column justify-content-center">
             <p class="text-white fs-3 fw-bold" style="width: 300px">
               O SENAI, classifica você para o mercado!
             </p>
-            <div class="d-flex">
+            <div class="d-flex w-100">
               <input
                 class="p-2 d-flex justify-content-center rounded-start border-0"
                 placeholder="Cadastre-se"
                 type="text"
               />
               <button
-                class="bg-danger text-white border-0 px-3 p-2 rounded-end"
+                class="btn-danger text-white  px-3 p-2 rounded-0 rounded-end btn" type="button"
               >
                 Button
               </button>
@@ -104,60 +104,57 @@
               </svg>
             </div>
           </div>
-          <img src="./img/vovozona.png" alt="" />
+          <img class="img-fluid" src="./img/vovozona.png" alt="" />
         </div>
       </div>
       <hr class="opacity-100 text-danger border-5 m-0" />
-      <div class="bg-primary bg-gradient pb-3">
-        <div class="d-flex justify-content-around align-items-center">
-          <p class="text-white fs-2 fw-bold">Para você</p>
-          <p class="text-white fs-2 fw-bold">Para Empresa</p>
-        </div>
-        <hr class="text-white opacity-100 border-2 m-0" />
-        <div class="d-flex justify-content-around mt-3">
+      <div style="background: linear-gradient(90deg, rgba(8,123,195,1) 35%, rgba(0,41,80,1) 100%);" class=" pb-3">
+        <div class="d-flex justify-content-around flex-wrap pt-4">
           <div>
+            <p class="text-white fs-2 fw-bold">Para você</p>
             <div>
               <input
-                class="p-2 rounded-2 border-5 pe-5 border-white"
+                class="p-2 rounded-2 border-5 border-white"
                 placeholder="Área de atuação"
                 type="text"
               />
               <input
-                class="p-2 rounded-2 border-5 pe-5 border-white"
+                class="p-2 rounded-2 border-5 border-white"
                 placeholder="Local do Curso"
                 type="text"
               />
             </div>
             <button
-              class="border-0 bg-danger text-white p-2 px-4 rounded-2 mt-2"
+              class="border-0 btn-danger text-white p-2 px-4 rounded-2 mt-2 btn" type="button"
             >
               Buscar
             </button>
           </div>
           <div>
+            <p class="text-white fs-2 fw-bold">Para Empresa</p>
             <div>
               <input
-                class="p-2 rounded-2 border-5 pe-5 border-white"
+                class="p-2 rounded-2 border-5  border-white"
                 placeholder="Área de atuação"
                 type="text"
               />
               <input
-                class="p-2 rounded-2 border-5 pe-5 border-white"
+                class="p-2 rounded-2 border-5  border-white"
                 placeholder="Categoria"
                 type="text"
               />
             </div>
             <button
-              class="border-0 bg-danger text-white p-2 px-4 rounded-2 mt-2"
+              class="border-0 btn-danger text-white p-2 px-4 rounded-2 mt-2 btn" type="button"
             >
               Buscar
             </button>
           </div>
         </div>
       </div>
-      <div class="px-5">
-        <div class="d-flex flex-row">
-          <div class="d-flex align-items-center gap-4 w-50">
+      <div class="px-5 container py-5">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="d-flex align-items-center gap-4">
             <img
               src="./img/monitor.png"
               alt=""
@@ -172,7 +169,7 @@
               </p>
             </div>
           </div>
-          <div class="d-flex align-items-center gap-4 w-50">
+          <div class="d-flex align-items-center gap-4">
             <img
               src="./img/papel.png"
               alt=""
@@ -187,11 +184,10 @@
               </p>
             </div>
           </div>
-          <hr />
         </div>
         <hr />
-        <div class="d-flex flex-row">
-          <div class="d-flex align-items-center gap-4 w-50">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="d-flex align-items-center gap-4">
             <img
               src="./img/maquinadecostura.png"
               alt=""
@@ -206,7 +202,7 @@
               </p>
             </div>
           </div>
-          <div class="d-flex align-items-center gap-4 w-50">
+          <div class="d-flex align-items-center gap-4">
             <img
               src="./img/capacete.png"
               alt=""
@@ -221,7 +217,6 @@
               </p>
             </div>
           </div>
-          <hr />
         </div>
       </div>
       <footer
